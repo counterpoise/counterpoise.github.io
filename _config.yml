@@ -18,8 +18,9 @@ optional_front_matter:
   remove_originals: true
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-avatar
   - jekyll-mentions
